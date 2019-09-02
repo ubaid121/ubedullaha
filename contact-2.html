@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- META TAGS -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- TITLE -->
+   <title>Macana</title>
+
+   <!-- STYLES -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- FONTS -->
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+   <!-- JQUERY 1.9.1 -->
+   <script src="js/jquery-1.9.1.min.js"></script>
+
+   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  	<!-- PAGE PRELOADER -->
+  	<div id="preloader">
+    	<div class='preloader'>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+		</div>
+  	</div>
+  	<!-- END / PAGER PRELOADER -->
+
+	<!-- NAVIGATION -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand page-scroll" href="#home">
+                    <img src="images/logo.png" alt="Image">
+            </a>
+            <!-- END / LOGO -->
+
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span id="cart-mobile"><a href="#"><i class="fa fa-shopping-cart"></i><span class="badge">3</span></a></span>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li class="dropdown">
+          				<a href="index.html" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+
+        			</li>
+                    <li class="dropdown">
+          				<a href="about-1.html" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">About</a>
+          				</li>
+
+                  <li class="dropdown">
+                <a href="resume.html" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Resume</a>
+                </li>
+
+                <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+              <ul class="dropdown-menu dropdown-menu-left">
+                      <li>
+                        <a href="portfolio-4.html">Lighting</a>
+                    </li>
+                      <li>
+                        <a href="portfolio-ld.html">Level Design</a>
+                    </li>
+              </ul>
+          </li>
+
+                  <li class="dropdown">
+                <a href="contact-2.html" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+                </li>
+
+
+    			</ul> <!-- END / NAVBAR RIGHT -->
+				</div>
+
+				<!-- SEARCH INPUT -->
+				<div class="search">
+					<input type="text" class="form-control" placeholder="Search the site">
+					<span class="close-search">x</span>
+				</div>
+				<!-- END / SEARCH INPUT -->
+  			</div> <!-- END CONTAINER -->
+	</nav>
+   <!-- END / NAVIGATION -->
+
+
+    <!-- HEADER -->
+    <!-- USED TO GET UP TO TOP OF PAGE -->
+	<div id="home"></div>
+    <header id="fading" class="bg-overlay-dark-60 parallax header-page" style="background-image: url('images/port/ruby.png');">
+    	<div class="header-caption">
+			<div class="header-text">
+				<h2 class="mb30 mt90">Contact</h2>
+ 					<ol class="breadcrumb">
+  						<li><a href="index.html">Home</a></li>
+  						<li class="active">Contact</li>
+					</ol>
+			</div>
+		</div>
+    </header>
+    <!-- END / HEADER -->
+
+    <!-- CONTACT -->
+    <!-- <div class="default-120 contact">
+    	<div class="container">
+    	<div class="title">
+    		<h4 class="text-center text-uppercase">Get In Touch</h4>
+    	</div>
+		<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+    	<p class="text-center">Fill the from below to contact me.</p><br>
+    	<form action="contact.php" role = "form">
+    		<input type="text" class="form-control" placeholder="Your name" required><br>
+    		<input type="text" class="form-control" placeholder="Your email" required><br>
+    		<input type="text" class="form-control" placeholder="Subject" required><br>
+    		<textarea id="form-message" rows="5" placeholder="Your Message" required></textarea><br><br>
+    		<input type="submit" class="btn btn-primary btn-fw" value="Send">
+    	</form>
+		</div>
+		</div>
+    	</div>
+    </div>
+    <!-- END / CONTACT -->
+
+
+<!-- New Form -->
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row"><br><br>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <label for="form_need">Please specify your need *</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Request quotation</option>
+                        <option value="Request order status">Request order status</option>
+                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="text-muted">
+                    <strong>*</strong> These fields are required.
+
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<!-- new form end -->
+
+
+
+
+	<!-- MAP -->
+	<div id="fading" class="bg-overlay-light-60 parallax default-map" style="background-image: none;">
+		<div id="map"></div>
+    </div>
+    <!-- END / MAP -->
+
+	<!-- FOOTER -->
+  <section id="footer">
+    <div class="container">
+        <div class="col-md-3">
+          <img src="images/logo-light.png" alt="Light Logo">
+
+        </div>
+        <div class="col-md-3">
+          <h3>Address</h3>
+          <p class="mt20"><i class="fa fa-map-marker"></i>Belgaum, India 590010</p>
+          <p><i class="fa fa-phone"></i>Phone: +91 74064 56866 </p>
+          <p><i class="fa fa-envelope-o"></i>ubaidkotwal@gmail.com</p>
+        </div>
+        <div class="col-md-3">
+          <h3>Pages</h3><br>
+          <p><i class="fa fa-plus"></i><a href="index.html">Home</a></p>
+          <p class="mt20"><i class="fa fa-plus"></i><a href="about-1.html">About</a></p>
+          <p><i class="fa fa-plus"></i><a href="resume.html">Resume </a></p>
+          <p><i class="fa fa-plus"></i><a href="portfolio-4.html">Portfolio </a></p>
+          <p><i class="fa fa-plus"></i><a href="contact-2.html">Contacts</a></p>
+          <p><i class="fa fa-plus"></i><a href="#">Search Terms</a></p>
+        </div>
+
+    </div>
+  </section>
+  <!-- END / FOOTER -->
+
+  <!-- FOOTER RIGHTS -->
+  <section id="footer-rights">
+    <div class="container">
+      <p>Copyrights © 2019 All Rights Reserved by Ubedullaha Kotwal</p>
+    </div>
+  </section>
+    <!-- END / FOOTER RIGHTS -->
+
+	<!-- SCROLLTOP -->
+	<div class="scroll-top">
+		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+
+    <!-- JAVA SCRIPT FILES -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+   	<script src="js/gmap.js"></script>
+   	<script>
+	$(document).ready(function () {
+    var map = new GMaps({
+        div: '#map',
+        lat: 51.5073346,
+        lng: -0.1276831,
+        width: '100%',
+        height: '300px',
+        zoom: 12,
+        zoomControl: true,
+        zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+        },
+        panControl: false
+    });
+});
+   </script>
+</body>
+</html>
